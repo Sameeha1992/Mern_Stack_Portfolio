@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-brand-black text-white antialiased;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-brand-orange text-white px-6 py-3 rounded-lg font-bold transition-all duration-300 hover:bg-orange-600 hover:scale-105 active:scale-95 shadow-lg shadow-orange-900/20;
+    }
+
+    .btn-outline {
+        @apply border-2 border-brand-orange text-brand-orange px-6 py-3 rounded-lg font-bold transition-all duration-300 hover:bg-brand-orange hover:text-white;
+    }
+
+    .section-title {
+        @apply text-4xl md:text-5xl font-heading font-extrabold mb-8;
+    }
+
+    .orange-glow {
+        @apply absolute -z-10 bg-brand-orange/10 blur-[100px] rounded-full;
+    }
+}
