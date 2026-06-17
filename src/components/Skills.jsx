@@ -16,7 +16,7 @@ const Skills = () => {
         },
         {
             title: "Tools & Infrastructure",
-            skills: ["AWS", "Nginx", "Git", "GitHub", "Figma", "Docker (Learning)"]
+            skills: ["AWS", "Nginx", "Git", "GitHub", "Figma", "Docker", "CI/CD (GitHub Actions)"],
         }
     ];
 
