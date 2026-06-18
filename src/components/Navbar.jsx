@@ -24,6 +24,8 @@ const Navbar = () => {
                     ))}
                     <a
                         href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="px-4 py-2 border border-brand-orange text-brand-orange text-xs font-bold rounded-full hover:bg-brand-orange hover:text-white transition-all"
                     >
                         RESUME
